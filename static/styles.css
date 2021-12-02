@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+
+/** ---------------------- GENERAL ---------------------- **/
+
+html {
+    min-height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom right,  #e6e3e3, #e0e0e0);
+  color: #555555;
+  font-size: 1.0em;
+  font-family: 'IM Fell DW Pica SC';
+  font-style: italic;
+  background-attachment: fixed;
+}
+
+/** ---------------------- NAVBAR ---------------------- **/
+
+.navbar {
+  z-index: 1;
+  background: #f5f5f5;
+  border-image: linear-gradient(to right, #fec9b5, #c1bded, #9ebdef, #73acd8, #fbe8c6, #fbd6ab);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  width: 100%;
+  height: 14em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.navbar-expand {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.nav-item { 
+  margin-left: 2em;  
+  vertical-align: bottom;
+}
+
+.nav-link { 
+  font-family: 'IM Fell DW Pica SC'; 
+  font-style: italic;
+  font-size: 2.25vw; 
+  font-weight: bold; 
+  color: #f5f5f5;
+  text-shadow: 0px 0px 0px #e6e6e6; 
+  letter-spacing: 0.15em;
+  margin-top: .5em;
+}
+
+.nav-link:hover {
+  color: #f5f5f5;
+}
+
+img.logo { max-height: 12vw; }
+
+
+.container {
+    margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.pics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
